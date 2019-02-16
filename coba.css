@@ -1,0 +1,234 @@
+body{
+    background: #F6F6F6;
+}
+
+/* Start Navbar */
+.navbar{
+    background: #A287F4;
+}
+.navbar-brand img{
+    width: 120px;
+    height: 40px;
+}
+.nav-link{
+    font-family: 'Nunito Sans', Arial;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px;
+}
+/* End Navbar */
+
+/* Start Home */
+section .row{
+    margin: 0 -10px;
+}
+.home{
+    background: #414141;
+    height: 180px;
+}
+.home .row{
+    padding-top: 30px;
+}
+.yoku{
+    padding: 0 0 0 10px;
+}
+.yoku img{
+    width: 230px;
+}
+.yoku-text{
+    font-family: 'Nunito Sans', arial;
+    color: #fff;
+    margin-left: -30px;
+    padding: 0;
+}
+.yoku-text h1{
+    color: #F7971D;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.yoku-text p{
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 8px;
+}
+.yoku-text .hello{
+    background: #F7971D;
+    padding: 2px 20px;
+    border-radius: 20px;
+    font-size: 8px; 
+    float: right;
+}
+/* End Home */
+
+/* DESKTOP VERSION */
+@media (min-width: 992px){
+
+body{
+    background: #F6F6F6;
+}
+/* Start Navbar */
+.navbar{
+    background: #A287F4;
+}
+.navbar .container{
+    padding: 0;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 50px;
+}
+.nav-link{
+    font-family: 'Nunito Sans', Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 30px 5px 0;
+}
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #fff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -10px;
+}
+/* End Navbar */
+
+/* Start Home */
+.home{
+    background: #414141;
+    height: 590px;
+}
+.home .row{
+    margin: 0;
+    padding-top: 110px;
+}
+.yoku{
+    padding: 0;
+}
+.yoku img{
+    width: 850px;
+}
+.yoku-text{
+    font-family: 'Nunito Sans', arial;
+    color: #fff;
+    padding: 20px 50px 20px 0;
+    margin: 25px 0px 25px -80px;
+}
+.yoku-text h1{
+    color: #F7971D;
+    margin: 10px 30px;
+    font-weight: 400;
+    font-size: 44px;
+}
+.yoku-text p{
+    text-align: right;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.yoku-text .hello{
+    background: #F7971D;
+    padding: 5px 35px;
+    border-radius: 20px;
+    float: right;
+    font-size: 20px; 
+}
+/* End Home */
+
+/* Start About */
+.panel-ab{
+    font-family: 'Nunito Sans', arial;
+}
+.panel-ab .ab-top{
+    background-color: #FFF;
+    box-shadow: 0 0 10 solid #000000;
+    border-radius: 25px;
+    margin-top: -25px;
+    padding: 60px 200px;
+}
+.bag2 .top-ab{
+    position: relative;
+    z-index: 0;
+    margin-bottom: -40px;
+    text-transform: uppercase;
+    color: #A287F4;
+    font-weight: bold;
+    font-size: 62px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+}
+.bag2 .bottom-ab{
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    color: #414141;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* .bag2 .hr{
+    background: #A287F4;
+    padding: 3px;
+    width: 50px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+} */
+.tools{
+    margin: 25px 0;
+}
+.tools .top-ab{
+    position: relative;
+    z-index: 0;
+    margin-bottom: -40px;
+    text-transform: uppercase;
+    color: #A287F4;
+    font-weight: bold;
+    font-size: 62px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+}
+.tools .bottom-ab{
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    color: #414141;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.skill .col-3{
+    align-items: center;
+}
+.col-3 img{
+    width: 50px;
+}
+
+.bag2 p{
+    font-family: 'Montserrat', Arial;
+    font-size: 18px;
+    color: #414141;
+    text-align: center;
+    margin-top: 20px;
+}
+.bag3{
+    padding: 0 150px;
+}
+.bag3 .cv-down{
+    background: #A287F4;
+    padding: 5px 35px;
+    border-radius: 20px;
+    font-size: 22px; 
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+/* End About */
+}
